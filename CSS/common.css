@@ -1,0 +1,296 @@
+/* 版心 */
+.wrapper {
+  margin: 0 auto;
+  width: 1240px;
+}
+
+/* 快捷导航 */
+.shortcut {
+  height: 52px;
+  background-color: #333;
+}
+
+.shortcut .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 52px;
+}
+
+.shortcut ul {
+  display: flex;
+  line-height: 52px;
+}
+
+.shortcut a {
+  font-size: 14px;
+  color: #fff;
+  padding: 0 15px;
+  border-right: 1px solid #999;
+}
+
+.shortcut li:first-child a {
+  color: #5EB69C;
+}
+
+.shortcut li:last-child a {
+  border-right: none;
+}
+
+.shortcut a:hover {
+  color: #5EB69C;
+}
+
+/* 头部 */
+.header {
+  display: flex;
+  height: 90px;
+  margin: 22px 0;
+}
+
+.header .wrapper {
+  display: flex;
+}
+
+.logo {
+  margin-right: 40px;
+  width: 200px;
+  height: 90px;
+}
+
+.logo a {
+  display: block;
+  width: 200px;
+  height: 90px;
+  font-size: 0;
+  background-image: url(../images/logo.png);
+}
+
+/* 头部导航栏 */
+.nav {
+  margin-top: 35px;
+  margin-right: 30px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  padding-right: 45px;
+}
+
+.nav li a {
+  font-family: "PingFang SC";
+  padding-bottom: 10px;
+}
+
+.nav li a:hover {
+  color: #5EB69C;
+  border-bottom: 2px solid #5EB69C;
+}
+
+/* 头部搜素栏 */
+.search {
+  display: flex;
+  width: 170px;
+  height: 35px;
+  border-bottom: 2px solid #f4f4f4;
+  margin-top: 33px;
+  margin-right: 45px;
+}
+
+.search span {
+  padding-top: 3px;
+  color: #ccc;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.search input {
+  flex: 1;
+  width: 0;
+}
+
+.search input::placeholder {
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* 头部购物车 */
+.cart {
+  cursor: pointer;
+  position: relative;
+  margin-top: 32px;
+}
+
+.cart span {
+  font-size: 24px;
+}
+
+.cart i {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  padding: 0 6px;
+  height: 15px;
+  background-color: #E26237;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fffefe;
+  line-height: 15px;
+}
+
+/* 底部 */
+.footer {
+  padding-top: 60px;
+  height: 580px;
+  background-color: #f5f5f5;
+}
+
+/* 服务 */
+.service {
+  cursor: default;
+  height: 118px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.service ul {
+  display: flex;
+  line-height: 178px;
+  justify-content: space-between;
+}
+
+.service li {
+  display: flex;
+  width: 190px;
+  height: 58px;
+}
+
+.service li h5 {
+  margin-right: 20px;
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprite.png);
+}
+
+.service li:nth-child(2) h5 {
+  background-position: 0 -58px;
+}
+
+.service li:nth-child(3) h5 {
+  background-position: 0 -116px;
+}
+
+.service li:nth-child(4) h5 {
+  background-position: 0 -174px;
+}
+
+.service li p {
+  font-size: 28px;
+  line-height: 58px;
+}
+
+/* 帮助中心 */
+.help {
+  height: 305px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.help .left {
+  display: flex;
+}
+
+.help .left dl {
+  margin-right: 84px;
+}
+
+.help .left dl:last-child {
+  margin-right: 0;
+}
+
+.help .left dt {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.help .left dd {
+  cursor: default;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #969696;
+}
+
+.help .left dd:last-child {
+  margin-bottom: 0;
+}
+
+.help .left dd a {
+  font-size: 16px;
+  color: #969696;
+}
+
+.help .left dd .iconfont {
+  color: #5EB69C;
+}
+
+.help .left a:hover {
+  color: #5EB69C;
+}
+
+.help .right ul {
+  display: flex;
+}
+
+.help .right li:first-child {
+  margin-right: 55px;
+}
+
+.help .right li img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.help .right p {
+  text-align: center;
+  font-size: 16px;
+  color: #969696;
+}
+
+.copyright {
+  width: 611px;
+  height: 60px;
+}
+
+.copyright ul {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright a {
+  font-size: 16px;
+  color: #A1A1A1;
+}
+
+.copyright a:hover {
+  color: #5EB69C;
+}
+
+.copyright li {
+  padding: 0 10px;
+  border-right: 1px solid #A1A1A1;
+}
+
+.copyright li:last-child {
+  border-right: none;
+}
+
+.copyright p {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  color: #A1A1A1;
+  cursor: default;
+}
