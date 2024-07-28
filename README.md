@@ -1,2 +1,2 @@
-# Little-Rabbit-Fresh-Mall
-小兔鲜儿商城
+# 小兔鲜儿商城
+使用HTML+CSS搭建的静态页面
